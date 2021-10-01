@@ -1,0 +1,95 @@
+
+.title{
+    text-align: center;
+    font: 3em sans-serif;
+}
+
+.formDiv{
+    background: grey;
+    box-shadow: 0 20px 8px rgba(0,0,0,0.26) ;
+    border-radius: 10px;
+    width: 35%;
+    height: auto;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+}
+
+.input {
+    margin: 2rem auto ;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    
+  }
+  
+  .input label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+
+  .button {
+    font: inherit;
+    border: 1px solid #61dafb;
+    background: #61dafb;
+    color: black;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: white;
+    border-color: #741188;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+
+  .signupLink{
+      font:inherit;
+      text-decoration: none;
+      text-align: center;
+      margin: 0rem 0;
+      display: block;
+      color: #000;
+  }
+
+  .signupLink:hover{
+      color: white;
+      text-decoration: underline;
+  }
+
+  .error{
+    border: 1px solid red;
+    color: red;
+    padding: 1rem;
+    margin: 0rem auto;
+    text-align: center;
+    width: 25rem;
+}
+
+.success{
+  border: 1px solid green;
+  color: green;
+  padding: 1rem;
+  margin: 0rem auto;
+  text-align: center;
+  width: 25rem;
+}

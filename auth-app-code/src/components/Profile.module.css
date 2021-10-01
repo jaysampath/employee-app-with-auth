@@ -1,0 +1,40 @@
+.profileDiv{
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.title{
+    font: 3em sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.element{
+    margin-bottom: 1.5rem;
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+}
+
+.details{
+    margin: 1rem auto;
+    text-align: center;
+    width: 30%;
+    border: 1px solid gray;
+    padding: 2rem;
+}
+.label{
+    font-weight: bold;
+    margin-right: 2rem;
+    width: 4rem;
+    text-align: left;
+}
+
+.value{
+    border: 1px solid gray;
+    padding: 0.6rem;
+    
+}
+
+
+
